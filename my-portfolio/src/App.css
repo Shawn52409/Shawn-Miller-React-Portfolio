@@ -1,38 +1,121 @@
-.App {
-  text-align: center;
+main{
+  line-height: 2.88rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Keep text from breaking the edges */
+a, .contact-info{
+  overflow-wrap: break-word;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+nav{
+  background: lightskyblue;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.coding-image{
+  padding: 7em 0;
+  background-image: url(../img/coding.jpg);
+  height: 450px;    
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+h1, .my-name, .title{
+ font-family: 'Lobster', cursive; 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h2{
+  font-family: 'Lobster', cursive;
+  color: white;
+  margin-top: 1em;
+  background: black;
+}
+
+/* make my photo completely rounded */
+.my-name img{
+  border-radius: 100%;
+}
+
+.title{
+  font-size: .8em;
+  color: grey;
+}
+
+ul{
+  position: sticky;
+  top: 0;  
+  font-size: 1.7em;
+  font-family: 'Lobster', cursive;
+
+
+}
+
+article{
+  background: rgb(245, 244, 244);
+  font-size: 1.7rem;
+  margin-top: 2em;
+  margin-left: 4em;
+  margin-right: 4em;
+  margin-bottom: 2em;
+  padding: 1em;
+  border-radius: 2%;
+  
+}
+/* coding image background */
+span{
+  background: black;
+  color: white;
+  border-style: groove; 
+}
+
+/* formating for all project images */
+img{
+  border: ridge;
+  border-color: cornflowerblue;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;      
+}
+
+footer{
+  padding: 5%;
+}
+
+
+body {
+min-height: 450px;
+height: 100vh;
+margin: 0;
+background: radial-gradient(circle, #0077ea, #1f4f96, #1b2949, #000);
+}
+
+@keyframes ಠ_ಠ {
+100% {
+  transform: rotateY(-40deg) rotateX(-43deg);
+}
+}
+
+/* Remove nav side bar and shrink text on smaller devices */
+@media screen and (max-width: 768px) {
+*{
+  font-size: .6em;
+}
+
+nav{
+  display: none;
+}
+.coding-image{
+  padding: 7em 0;
+  background-image: url(../img/coding.jpg);
+  height: 150px;    
+  color: white;
+}
+article{
+  margin-top: 0em;
+  margin-left: 0em;
+  margin-right: 0em;
+  margin-bottom: 0em;
+  padding: 0em;
+  border-radius: 2%;
+  
+}
 }
