@@ -1,5 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .navBar {
-  background-color: rgb(127, 211, 250);
+  background-color: skyblue;
+}
+
+.myName{
+  font-family: Georgia, serif;
+}
+
+.link {
+  float: right;
 }
 
 .myName {
@@ -11,4 +25,23 @@
 .link {
   color: white;
   text-decoration: none;
+}
+
+img {
+  border: ridge;
+  border-color: cornflowerblue;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+/* .portfolioBackground {
+  background-color: black;
+} */
+
+article {
+  background-color: lightskyblue;
+  border-radius: 5%;
+  
 }
