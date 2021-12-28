@@ -5,7 +5,9 @@
 }
 
 .navBar {
-  background-color: skyblue;
+  /* background-color: skyblue; */
+  background: radial-gradient(circle, #0077ea, #1f4f96, #1b2949, #000);
+
 }
 
 .myName{
@@ -29,7 +31,9 @@
 
 img {
   border: ridge;
-  border-color: cornflowerblue;
+  border-color: white;
+  border-radius: 5%;
+  border-style: double;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -40,8 +44,28 @@ img {
   background-color: black;
 } */
 
+.githubLink {
+  color: white;
+  font-size: larger;
+  text-align: center;
+}
+
 article {
-  background-color: lightskyblue;
+  /* background-color: lightskyblue; */
+  background: radial-gradient(circle, #0077ea, #1f4f96, #1b2949, #000);
   border-radius: 5%;
-  
+  color: white;  
+}
+
+.footer {
+  background: radial-gradient(circle, #0077ea, #1f4f96, #1b2949, #000);
+  color: white;
+  text-align: center;
+}
+
+.iconLinks {
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  padding: 0;
+  display: inline-block;
 }
