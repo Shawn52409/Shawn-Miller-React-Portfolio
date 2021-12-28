@@ -6,7 +6,7 @@ export default function NavBar() {
         <header className='navBar'>
             <div>
                 <nav className=''>
-                    <NavLink to='/' exact className='myName fs-1'>
+                    <NavLink to='/' exact className='myName ms-3 fs-1'>
                         Shawn Miller
                     </NavLink>                   
                     <NavLink to='/about' className='link p-3'>
@@ -21,7 +21,7 @@ export default function NavBar() {
                     <NavLink to='/resume' className='link p-3'>
                         Resume
                     </NavLink> 
-            </nav>
+                </nav>
             </div>   
         </header>
     );
