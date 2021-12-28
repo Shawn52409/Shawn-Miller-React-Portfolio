@@ -9,17 +9,17 @@ export default function NavBar() {
                     <NavLink to='/' exact className='myName ms-3 fs-1'>
                         Shawn Miller
                     </NavLink>                   
-                    <NavLink to='/about' className='link p-3'>
-                        About Me
-                    </NavLink>                   
-                    <NavLink to='/portfolio' className='link p-3'>
-                        Portfolio
+                    <NavLink to='/resume' className='link p-3'>
+                        Resume
                     </NavLink>                   
                     <NavLink to='/contact' className='link p-3'>
                         Contact
                     </NavLink>                   
-                    <NavLink to='/resume' className='link p-3'>
-                        Resume
+                    <NavLink to='/portfolio' className='link p-3'>
+                        Portfolio
+                    </NavLink>                   
+                    <NavLink to='/' exact className='link p-3'>
+                        About Me
                     </NavLink> 
                 </nav>
             </div>   
