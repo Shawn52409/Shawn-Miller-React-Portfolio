@@ -22,7 +22,7 @@ const projects = [
     },
     {
         name: 'Coding Quiz',
-        description: 'This website was made to create a coding quiz for a user to take.',
+        description: 'This website was made to create a coding quiz to test a developers knowledge on coding.',
         screenshot: './img/coding-quiz-screenshot.jpg',
         deployedLink: 'https://shawn52409.github.io/Code-Quiz/',
         repoLink: 'https://github.com/Shawn52409/Code-Quiz.git',
