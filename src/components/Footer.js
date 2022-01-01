@@ -11,7 +11,7 @@ export default function Footer() {
                     <p>Designed and Developed by Shawn Miller</p>
                 </Col>
                 <Col md='4'>
-                    <p>2021</p>           
+                    <p>2022</p>           
                 </Col>
                 <Col md='4'>
                     <ul className='iconLinks'>

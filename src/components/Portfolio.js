@@ -1,5 +1,5 @@
 import React from 'react';
-import projects from './projects';
+import projects from './Projects';
 import { AiFillGithub } from "react-icons/ai";
 import budgetTracker from './img/Budget-Tracker.gif';
 import codingQuiz from './img/coding-quiz-screenshot.jpg';

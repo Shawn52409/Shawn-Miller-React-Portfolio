@@ -7,7 +7,7 @@ import './App.css';
 
 // Import components
 // import Home from './components/Home';
-import NavBar from './components/NavBar';
+import NavBar from './components/Navbar';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
@@ -19,7 +19,6 @@ function App() {
   return (
     <Router>
     <NavBar />
-        {/* <Route exact path='http://localhost:3000/shawn-miller-react-portfolio' Redirect to="/" /> */}
         <Route component={About} path='/shawn-miller-react-portfolio' exact />
         <Route component={About} path='/' exact />
         <Route component={Portfolio} path='/portfolio' />
