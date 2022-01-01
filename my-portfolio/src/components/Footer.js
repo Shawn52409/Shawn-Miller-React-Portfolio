@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from "react-bootstrap";
-import { AiFillGithub, AiOutlineTwitter } from "react-icons/ai";
+import { AiFillGithub, AiOutlineFontSize, AiOutlineTwitter } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 export default function Footer() {
@@ -16,13 +16,13 @@ export default function Footer() {
                 <Col md='4'>
                     <ul className='iconLinks'>
                         <li className='iconLinks'>
-                            <a href="https://github.com/Shawn52409" target='_blank' style={{ color: 'white' }}><AiFillGithub /></a>
+                            <a href="https://github.com/Shawn52409" target='_blank' style={{ color: 'white' }}><AiFillGithub size='25px' /></a>
                         </li>
                         <li className='iconLinks'>
-                            <a href="https://www.linkedin.com/in/shawn-miller-b44a36217/" target='_blank' style={{ color: 'white' }}><FaLinkedinIn /></a>
+                            <a href="https://www.linkedin.com/in/shawn-miller-b44a36217/" target='_blank' style={{ color: 'white' }}><FaLinkedinIn size='25px'/></a>
                         </li>
                         <li className='iconLinks'>
-                            <a href="https://twitter.com/ShawnMiller524" target='_blank' style={{ color: 'white' }}><AiOutlineTwitter /></a>
+                            <a href="https://twitter.com/ShawnMiller524" target='_blank' style={{ color: 'white' }}><AiOutlineTwitter size='25px' /></a>
                         </li>
                     </ul>
                 </Col>
