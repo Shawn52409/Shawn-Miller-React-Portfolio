@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { Container, Row, Col } from "react-bootstrap";
 import { validateEmail } from '../utils/helper';
+import backgroundImage from './img/coding2.jpg';
+
 
 export default function Contact() {
     
@@ -48,7 +50,7 @@ export default function Contact() {
 
 
     return(
-        <div className='contactForm' style={{ backgroundImage: "url(/img/coding2.jpg)" }}>
+        <div className='contactForm' style={{ backgroundImage: `url(${backgroundImage})` }}>
             <Row>
                 <Col>
                     <h2 className='contactTitle'>Please feel free to contact me...</h2>

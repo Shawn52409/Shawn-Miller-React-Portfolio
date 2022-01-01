@@ -1,27 +1,32 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+} */
 
 .navBar {
   background: radial-gradient(circle, #0077ea, #1f4f96, #1b2949, #000);
 
 }
 
-.myName{
+/* .myName{
   font-family: Georgia, serif;
-}
-
+  color: white;
+} */
 
 .link {
-  float: right;
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
 }
+
+/* .link {
+  float: right;
+} */
 
 .myName {
   color: white;
   text-decoration: none;
-  width: 200px;
 }
 
 .link {

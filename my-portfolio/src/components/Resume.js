@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Document, Page, pdfjs } from 'react-pdf';
 import { FiDownload } from "react-icons/fi";
-
+import resume from './img/Miller-Shawn-Resume.pdf';
 
 export default function Resume() {
     
@@ -17,18 +17,18 @@ export default function Resume() {
     return(
         <div className='m-5 d-inline-flex'>
             <div>
-                <a href="/img/Miller-Shawn-Resume.pdf" target="_blank" className='resumeLink'><FiDownload /> Resume</a> 
+                <a href={resume} target="_blank" className='resumeLink'><FiDownload /> Resume</a> 
             </div>
             
             <Document
-                file='/img/Miller-Shawn-Resume.pdf'
+                file={resume}
                 onLoadSucess={onDocumentLoadSuccess}
                 >
                 <Page pageNumber={1} />
             </Document>
 
             <Document 
-                file='/img/Miller-Shawn-Resume.pdf'
+                file={resume}
                 onLoadSucess={onDocumentLoadSuccess}
             >
                 <Page pageNumber={2} />

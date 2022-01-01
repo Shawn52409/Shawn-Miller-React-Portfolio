@@ -19,7 +19,8 @@ function App() {
   return (
     <Router>
     <NavBar />
-        {/* <Route component={Home} path='/' exact /> */}
+        {/* <Route exact path='http://localhost:3000/shawn-miller-react-portfolio' Redirect to="/" /> */}
+        <Route component={About} path='/shawn-miller-react-portfolio' exact />
         <Route component={About} path='/' exact />
         <Route component={Portfolio} path='/portfolio' />
         <Route component={Contact} path='/contact' />
