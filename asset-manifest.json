@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/shawn-miller-react-portfolio/static/css/main.2b8749a7.css",
+    "main.js": "/shawn-miller-react-portfolio/static/js/main.059247f1.js",
+    "static/media/coding2.jpg": "/shawn-miller-react-portfolio/static/media/coding2.5803e6109be53bbd23ae.jpg",
+    "static/media/Budget-Tracker.gif": "/shawn-miller-react-portfolio/static/media/Budget-Tracker.0eedd8c4d28ea37d7dad.gif",
+    "static/media/weather-dashboard-screenshot.jpg": "/shawn-miller-react-portfolio/static/media/weather-dashboard-screenshot.0cd019da1a81efde3656.jpg",
+    "static/media/Miller-Shawn-Resume.pdf": "/shawn-miller-react-portfolio/static/media/Miller-Shawn-Resume.5e855288b1db92da59d7.pdf",
+    "static/media/shawn.jpg": "/shawn-miller-react-portfolio/static/media/shawn.9db63f0a12cf21c121ae.jpg",
+    "static/media/workout-tracker.jpg": "/shawn-miller-react-portfolio/static/media/workout-tracker.ecb83744e6eac1f431a4.jpg",
+    "static/media/health-wellness-screenshot.jpg": "/shawn-miller-react-portfolio/static/media/health-wellness-screenshot.57d5408ad42fb1ae3e37.jpg",
+    "static/media/music-review-club-screenshot.jpg": "/shawn-miller-react-portfolio/static/media/music-review-club-screenshot.8e113f03d75df09bb856.jpg",
+    "static/media/coding-quiz-screenshot.jpg": "/shawn-miller-react-portfolio/static/media/coding-quiz-screenshot.b3f4e03c41bbdaf6a707.jpg",
+    "index.html": "/shawn-miller-react-portfolio/index.html",
+    "main.2b8749a7.css.map": "/shawn-miller-react-portfolio/static/css/main.2b8749a7.css.map",
+    "main.059247f1.js.map": "/shawn-miller-react-portfolio/static/js/main.059247f1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2b8749a7.css",
+    "static/js/main.059247f1.js"
+  ]
+}
