@@ -5,7 +5,6 @@
 }
 
 .navBar {
-  /* background-color: skyblue; */
   background: radial-gradient(circle, #0077ea, #1f4f96, #1b2949, #000);
 
 }
@@ -13,6 +12,7 @@
 .myName{
   font-family: Georgia, serif;
 }
+
 
 .link {
   float: right;
@@ -29,7 +29,7 @@
   text-decoration: none;
 }
 
-img {
+.projectImg {
   border: ridge;
   border-color: white;
   border-radius: 5%;
@@ -40,14 +40,44 @@ img {
   width: 80%;
 }
 
-/* .portfolioBackground {
-  background-color: black;
-} */
+.about{
+  height: 84vh;
+  padding: 5%;
+  background: radial-gradient(circle, #0077ea, #1f4f96, #1b2949, #000);
+}
+
+.myPhoto {
+  border: ridge;
+  border-color: rgb(63, 122, 248);
+  border-radius: 100%;
+  border-style: solid;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.myBio {
+  color: white;
+  border-color: rgb(63, 122, 248);
+  border-style: solid;
+  size: 1.5em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: block;
+  margin: 5%;
+  background: radial-gradient(circle, #0077ea, #1f4f96, #1b2949, #000);
+  border-radius: 5%;
+}
 
 .githubLink {
   color: white;
-  font-size: larger;
-  text-align: center;
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
+}
+
+.githubLink:hover {
+  color: lightskyblue;
 }
 
 article {
@@ -57,10 +87,31 @@ article {
   color: white;  
 }
 
+.contactTitle {
+  color: white;
+  text-align: center;
+}
+
+.contactForm {
+  height: 84vh;
+  padding: 5%;
+}
+
+.form {
+  color: white;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.resumeLink {
+  text-decoration: none;
+}
+
 .footer {
   background: radial-gradient(circle, #0077ea, #1f4f96, #1b2949, #000);
   color: white;
   text-align: center;
+  padding-top: 5px;
 }
 
 .iconLinks {
