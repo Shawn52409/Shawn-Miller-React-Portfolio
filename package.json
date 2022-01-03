@@ -1,6 +1,6 @@
 {
-  "homepage": "http://Shawn52409.github.io/shawn-miller-react-portfolio",
-  "name": "my-portfolio",
+  "homepage": "http://shawn52409.github.io/shawn-miller-react-portfolio",
+  "name": "shawn-miller-react-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
