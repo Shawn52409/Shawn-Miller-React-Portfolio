@@ -1,5 +1,12 @@
 const projects = [
     {
+        name: 'Power Up',
+        description: 'An app designed for simplicity and a clear user experience centered around the idea that anyone should be able to curate their own personal library of video games. Starting from our robust database of video games, including everything from JRPGs to Metroidvanias and everything in between, the user can find the games that fit their needs and begin to build a personal library.',
+        screenshot: '/img/powerup__gif.gif',
+        deployedLink: 'https://powerup-game-app.herokuapp.com/',
+        repoLink: 'https://github.com/Shawn52409/powerup',
+    },
+    {
         name: 'Music Review Club',
         description: 'A website that specializes in building a music loving community where a user can post song review, read music reviews and post comments on song reviews.',
         screenshot: '/img/music-review-club-screenshot.jpg',
