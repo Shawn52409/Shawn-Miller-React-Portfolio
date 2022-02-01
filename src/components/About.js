@@ -10,7 +10,8 @@ export default function About() {
                     <img className='myPhoto' src={myPhoto}/>                
                 </div>
                 <div className='col-sm-7 myBio'>
-                I am currently enrolled in an Ohio State University coding boot camp while I hold a day job as a Senior Technical Manager at Chuck E. Cheese. I troubleshoot and repair the latest arcade machines, an animatronic show and many other restaurant equipment. I joined the bootcamp to move my education from computer hardware to software. I love learning new things and cannot wait to join a company and use all my background to develope new and exciting web pages.
+                    <h1 className='text-center'>Who am I?</h1>
+                    <p>Hello everyone, I am <u>Shawn Miller</u> from Columbus, Ohio. I have been interested in computer programming ever since I wrote programs on my TI-82 graphing calculator in high school. I am a very motivated individual. Throughout my years in high school, I earned my Eagle Scout, earned a varsity letter on swim team, performed in marching band and even held a part time job. <br/> <br/> I went on to spend a year at Bowling Green State University majoring in Computer Science before transferring to Devry University to earn my bachelor's degree in Electronic Engineering Technology. After spending time in the field mastering computer hardware repair I went back to school to finish learning how to write and debug software. I have now earned a certificate in Full Stack Coding from The Ohio State University. I am now motivated to start a new career in the field of software development. <br/> <br/> I am <u>confident</u> that I can bring my passion for <u>quick learning</u>, <u>motivation</u>, and years of technical background to help a team achieve its goals in web development. </p>
                 </div>
             </div>            
         </div>
