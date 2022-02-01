@@ -54,7 +54,7 @@ export default function Contact() {
         <div className='contactForm' style={{ backgroundImage: `url(${backgroundImage})` }}>
             <Row>
                 <Col>
-                <article id="contact-me" class="border">                            
+                <article id="contact-me">                            
                 <div className='text-center'>
                     <h2>Please feel free to contact me...</h2>
                         <div>
