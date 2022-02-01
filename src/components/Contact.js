@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import { Container, Row, Col } from "react-bootstrap";
 import { validateEmail } from '../utils/helper';
 import backgroundImage from './img/coding2.jpg';
-
+import { AiFillGithub, AiOutlineFontSize, AiOutlineTwitter, AiOutlineMail} from "react-icons/ai";
+import { FaLinkedinIn } from "react-icons/fa";
 
 export default function Contact() {
     
@@ -53,7 +54,24 @@ export default function Contact() {
         <div className='contactForm' style={{ backgroundImage: `url(${backgroundImage})` }}>
             <Row>
                 <Col>
-                    <h2 className='contactTitle'>Please feel free to contact me...</h2>
+                <article id="contact-me" class="border">                            
+                <div className='text-center'>
+                    <h2>Please feel free to contact me...</h2>
+                        <div>
+                            <a href="mailto:shawnsmm@gmail.com" target='_blank' style={{ color: 'white' }}><AiOutlineMail size='25px' /><span className='link p-3'>shawnsmm@gmail.com</span></a>
+                        </div>
+                        <div>
+                            <a href="https://github.com/Shawn52409" target='_blank' style={{ color: 'white' }}><AiFillGithub size='25px' /><span className='link p-3'>https://github.com/Shawn52409</span></a>
+                        </div>
+                        <div>
+                            <a href="https://www.linkedin.com/in/shawn-miller-b44a36217/" target='_blank' style={{ color: 'white' }}><FaLinkedinIn size='25px'/><span className='link p-3'>https://www.linkedin.com/in/shawn-miller-b44a36217</span></a>
+                        </div>
+                        <div>
+                            <a href="https://twitter.com/ShawnMiller524" target='_blank' style={{ color: 'white' }}><AiOutlineTwitter size='25px' /><span className='link p-3'>https://twitter.com/ShawnMiller524</span></a>
+                        </div>
+                    </div>
+                    </article>        
+                    {/* <h2 className='contactTitle'>Please feel free to contact me...</h2>
                     <form className='form'>
                         <div className='mt-4'>
                             <label>Name:</label>
@@ -94,7 +112,7 @@ export default function Contact() {
                         <div className='mt-4 mb-4' >
                             <button data-testid='button' class="btn btn-primary" type="submit" onSubmit={handleFormSubmit}>Submit</button>
                         </div>
-                    </form>
+                    </form> */}
                 </Col>
             </Row>         
         </div>
