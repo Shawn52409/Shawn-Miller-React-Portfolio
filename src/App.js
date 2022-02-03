@@ -1,5 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Route} from 'react-router-dom';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 // Import global styles
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -16,6 +19,7 @@ import Footer from './components/Footer';
 
 
 function App() {
+  AOS.init();
   return (
     <Router>
     <NavBar />
