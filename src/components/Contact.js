@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Container, Row, Col } from "react-bootstrap";
 import { validateEmail } from '../utils/helper';
 import backgroundImage from './img/coding2.jpg';
-import { AiFillGithub, AiOutlineFontSize, AiOutlineTwitter, AiOutlineMail} from "react-icons/ai";
+import { AiFillGithub, AiOutlineFontSize, AiOutlineTwitter, AiFillMail} from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 export default function Contact() {
@@ -54,11 +54,11 @@ export default function Contact() {
         <div className='contactForm' style={{ backgroundImage: `url(${backgroundImage})` }}>
             <Row>
                 <Col>
-                <article id="contact-me">                            
+                <article id="contact-me" data-aos="zoom-in-up" data-aos-easing="ease-out-cubic" data-aos-duration="1000">                            
                 <div className='text-center'>
                     <h2>Please feel free to contact me...</h2>
                         <div>
-                            <a href="mailto:shawnsmm@gmail.com" target='_blank' style={{ color: 'white' }}><AiOutlineMail size='25px' /><span className='link p-3'>shawnsmm@gmail.com</span></a>
+                            <a href="mailto:shawnsmm@gmail.com" target='_blank' style={{ color: 'white' }}><AiFillMail size='25px' /><span className='link p-3'>shawnsmm@gmail.com</span></a>
                         </div>
                         <div>
                             <a href="https://github.com/Shawn52409" target='_blank' style={{ color: 'white' }}><AiFillGithub size='25px' /><span className='link p-3'>https://github.com/Shawn52409</span></a>
