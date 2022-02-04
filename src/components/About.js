@@ -6,7 +6,7 @@ export default function About() {
     return(
         <div className='container-fluid about' style={{ backgroundImage: `url(${backgroundImage})`}}>
             <div className='container-md row justify-content evenly'>
-                <div className='col-sm-3' data-aos="zoom-in-up" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
+                <div className='text-center col-sm-3' data-aos="zoom-in-up" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
                     <img className='myPhoto' src={myPhoto}/>                
                 </div>
                 <div className='col-sm-7 myBio' data-aos="zoom-in-up" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
