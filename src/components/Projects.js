@@ -27,7 +27,7 @@ const projects = [
         name: 'Weather Dashboard',
         description: 'This website was gives a user a way see the weather of any city the user searches for.',
         techUsed: 'HTML, CSS, Javascript, Jquery, Bootstrap, FontAwesome, moment().js, API',
-        screenshot: './img/weather-dashboard-screenshot.jpg',
+        screenshot: './img/weather-dashboard.gif',
         deployedLink: 'https://shawn52409.github.io/Weather-Dashboard/',
         repoLink: 'https://github.com/Shawn52409/Weather-Dashboard',
     },
