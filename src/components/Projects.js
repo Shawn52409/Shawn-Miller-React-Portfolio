@@ -31,14 +31,14 @@ const projects = [
         deployedLink: 'https://shawn52409.github.io/Weather-Dashboard/',
         repoLink: 'https://github.com/Shawn52409/Weather-Dashboard',
     },
-    {
-        name: 'Coding Quiz',
-        description: 'This website was made to create a coding quiz to test a developers knowledge on coding.',
-        techUsed: 'HTML, CSS, Javascript, Jquery',
-        screenshot: './img/coding-quiz-screenshot.jpg',
-        deployedLink: 'https://shawn52409.github.io/Code-Quiz/',
-        repoLink: 'https://github.com/Shawn52409/Code-Quiz.git',
-    },
+    // {
+    //     name: 'Coding Quiz',
+    //     description: 'This website was made to create a coding quiz to test a developers knowledge on coding.',
+    //     techUsed: 'HTML, CSS, Javascript, Jquery',
+    //     screenshot: './img/coding-quiz-screenshot.jpg',
+    //     deployedLink: 'https://shawn52409.github.io/Code-Quiz/',
+    //     repoLink: 'https://github.com/Shawn52409/Code-Quiz.git',
+    // },
     {
         name: 'Budget Tracker',
         description: 'This app will let a user keep track of a budget. The user will be able to enter deposits and expenses on and offline. If a user is offline the app will keep checking for an online connection and add all offline entries to the online database.',
@@ -47,14 +47,14 @@ const projects = [
         deployedLink: 'https://shawn52409.github.io/Code-Quiz/',
         repoTitle: 'Repo Link',
         repoLink: 'https://github.com/Shawn52409/Code-Quiz.git',
+    },
+    {
+        name: 'Workout Tracker',
+        description: 'This app is a workout tracker used to track daily workouts. A user will be able to log multiple exercises in a workout on a given day. The user will be able to track the name, type , weight, sets, reps and duration of exercise. If it is a cardio exercise a user will be able to track the distance traveled.',
+        screenshot: './img/workout-tracker.jpg',
+        deployedLink: 'https://workout-tracker-smm.herokuapp.com/',
+        repoLink: 'https://github.com/Shawn52409/Workout-Tracker',
     }
-    // {
-    //     name: 'Workout Tracker',
-    //     description: 'This app is a workout tracker used to track daily workouts. A user will be able to log multiple exercises in a workout on a given day. The user will be able to track the name, type , weight, sets, reps and duration of exercise. If it is a cardio exercise a user will be able to track the distance traveled.',
-    //     screenshot: ' workoutTracker',
-    //     deployedLink: 'https://workout-tracker-smm.herokuapp.com/',
-    //     repoLink: 'https://github.com/Shawn52409/Workout-Tracker',
-    // },
 ]
 
 export default projects;
