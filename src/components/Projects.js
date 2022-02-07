@@ -42,7 +42,7 @@ const projects = [
     {
         name: 'Budget Tracker',
         description: 'This app will let a user keep track of a budget. The user will be able to enter deposits and expenses on and offline. If a user is offline the app will keep checking for an online connection and add all offline entries to the online database.',
-        techUsed: '',
+        techUsed: 'Node.js, npm dotenv, npm express, JavaScript, mongoose, mongodb, mongodb atlas, Heroku',
         screenshot: './img/Budget-Tracker.gif',
         deployedLink: 'https://shawn52409.github.io/Code-Quiz/',
         repoTitle: 'Repo Link',
@@ -51,6 +51,7 @@ const projects = [
     {
         name: 'Workout Tracker',
         description: 'This app is a workout tracker used to track daily workouts. A user will be able to log multiple exercises in a workout on a given day. The user will be able to track the name, type , weight, sets, reps and duration of exercise. If it is a cardio exercise a user will be able to track the distance traveled.',
+        techUsed: 'Node.js, npm dotenv, npm express, JavaScript, mongoose, mongodb, mongodb atlas, Heroku',
         screenshot: './img/workout-tracker.jpg',
         deployedLink: 'https://workout-tracker-smm.herokuapp.com/',
         repoLink: 'https://github.com/Shawn52409/Workout-Tracker',
