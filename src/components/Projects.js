@@ -25,8 +25,8 @@ const projects = [
     },
     {
         name: 'Weather Dashboard',
-        description: 'This website was gives a user a way see the weather of any city the user searches for.',
-        techUsed: 'HTML, CSS, Javascript, Jquery, Bootstrap, FontAwesome, moment().js, API',
+        description: 'This app lets a user see the weather of any city the user searches for by entering a zip code. The search will be saved to local storage and a button with the city and zip code will appear to easily return to a previous searches. After a search is made a user may delete the search history if they like by pressing the red button.',
+        techUsed: 'HTML, CSS, Javascript, Jquery, Bootstrap, FontAwesome, moment().js, API, local storage',
         screenshot: './img/weather-dashboard.gif',
         deployedLink: 'https://shawn52409.github.io/Weather-Dashboard/',
         repoLink: 'https://github.com/Shawn52409/Weather-Dashboard',
